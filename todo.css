@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Karla:ital,wght@0,400;1,600&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3B57CC;
+}
+.menu{
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    align-items: center;
+}
+
+.menu > h1 {
+    display: block;
+    padding: .5rem;
+    margin: .5rem;
+}
+.menu > label {
+    display: block;
+    padding: 10px;
+}
+
+.menu > input {
+    font-size: 22px;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: .5rem;
+    background-color: #3B57CC;
+    border-radius: .5rem;
+    color: white;
+    font-size: 22px;
+}
+
+.textoTarefa{
+    width: 80%;
+    font-size: 18px;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    border: 4px solid #C8E0E5;
+    display: flex;
+}
+
+.add {
+    display: flex;
+}
+
+.btnAdd{
+    margin: .5rem;
+    display: flex;
+    width: 10%;
+    padding: .5rem;
+    background-color: #3B57CC;
+    border-radius: .5rem;
+    color: white;
+    font-size: 22px;
+}
+
+.btnAdd:hover{
+    cursor: pointer;
+}
+
+.btnConf{
+    margin: .5rem;
+    display: flex;
+    float: right;
+    width: 10%;
+    padding: .4rem .2rem;
+    background-color: #5dcc3b;
+    border-radius: .5rem;
+    color: white;
+    font-size: 22px;
+}
+
+.btnConf:hover{
+    cursor: pointer;
+    background-color: #5dcc3bb7;
+    color: black;
+}
+
+.btnDel{
+    text-transform: lowercase;
+    margin: .5rem;
+    display: flex;
+    float: right;
+    width: 10%;
+    padding: .5rem;
+    background-color: #cc3b3b;
+    border-radius: .5rem;
+    color: white;
+    font-size: 22px;
+}
+
+.btnDel:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.btnExcTarefa{
+    float: right;
+    width: 5%;
+    color: red;
+    font-size: 22px;
+}
+
+.btnExcTarefa:hover{
+    cursor: pointer;
+}
+
+
+.btnExc{
+    margin: .5rem;
+    display: flex;
+    float: right;
+    width: 10%;
+    padding: .5rem;
+    background-color: #cc3b3b;
+    border-radius: .5rem;
+    color: white;
+    font-size: 22px;
+}
+
+.btnExc:hover{
+    cursor: pointer;
+    background-color: #cc623b;
+    color: black;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.tarefa {
+    align-items: center;
+}
+
+.blocos-tarefa {
+    word-break: break-all;
+    background-color: white;
+    display: grid;
+    float: left;
+    width: 600px;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+}
+
+@media (max-width: 375px){
+    .blocos-tarefa {
+        width: 340px;
+    }
+}
+
+.tarefas{
+    font-size: 22px;
+    text-align: left;
+    text-transform: capitalize;
+    background-color: #C8E0E5;
+    display: inline-block;
+    width: 95%;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    
+}
